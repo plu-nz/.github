@@ -33,7 +33,7 @@ Scheduling for psychologists, including calendar sync, confirmations, and paymen
 
 - GitHub organization: `plu-nz`. Do not rename it.
 - Bring PLUNZ products into this organization, including Capturar.
-- Name repositories with a type prefix and a dot, following `docs/decisions/2026-11-03-repository-naming.md`. Use `mono.` for monorepos.
+- Name repositories with a type prefix and a dot, following `decisions/2026-11-03-repository-naming.md`. Use `mono.` for monorepos.
 - Prefer suitable free tiers, especially Cloudflare where appropriate; minimize self-hosted services and the number of providers.
 - This `.github` repository holds the public organization profile and shared documentation.
 

@@ -19,16 +19,19 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 ## Using this repository
 
 - Track open work on the [PLUNZ Roadmap board](https://github.com/orgs/plu-nz/projects/1/views/3).
-- Read the [shared context](docs/context.md) when starting a Codex, Claude, or other agent session.
-- Record cross-product choices in [shared decisions](docs/decisions/README.md).
+- Read the [shared context](CONTEXT.md) when starting a Codex, Claude, or other agent session.
+- Browse the [decisions index](decisions/README.md) for accepted cross-product choices.
+- See the [profile index](profile/README.md) for the public organization introduction.
 - Keep implementation details in each product repository.
 - Follow [AGENTS.md](AGENTS.md) for shared agent instructions.
 
+Keep this repository flat. Every directory, including nested directories, must contain a `README.md` that summarizes its purpose and links to its contents and relevant parent context.
+
 ## Technical direction
 
-Use [the PLUNZ architecture and stack standard](docs/decisions/2026-11-03-architecture-and-stack.md): SolidJS + TypeScript + Vite for web frontends; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go whenever it fits the product's hosting and cost constraints, especially for CLIs and non-UI programs. Do not use TanStack Start. Aim for no-cost infrastructure, minimal self-hosting, and a small provider footprint.
+Use [the PLUNZ architecture and stack standard](decisions/2026-11-03-architecture-and-stack.md): SolidJS + TypeScript + Vite for web frontends; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go whenever it fits the product's hosting and cost constraints, especially for CLIs and non-UI programs. Do not use TanStack Start. Aim for no-cost infrastructure, minimal self-hosting, and a small provider footprint.
 
-Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](docs/decisions/2026-11-03-repository-naming.md).
+Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](decisions/2026-11-03-repository-naming.md).
 
 Shared visual tokens, icons, and components are planned. No separate design-system package has been adopted yet.
 

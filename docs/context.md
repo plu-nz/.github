@@ -34,12 +34,12 @@ Scheduling for psychologists, including calendar sync, confirmations, and paymen
 - GitHub organization: `plu-nz`. Do not rename it.
 - Bring PLUNZ products into this organization, including Capturar.
 - Name repositories with a type prefix and a dot, following `docs/decisions/2026-11-03-repository-naming.md`. Use `mono.` for monorepos.
-- Prefer low-cost Cloudflare infrastructure where appropriate.
+- Prefer suitable free tiers, especially Cloudflare where appropriate; minimize self-hosted services and the number of providers.
 - This `.github` repository holds the public organization profile and shared documentation.
 
 ## Architecture and stack
 
-The [architecture and stack decision](decisions/2026-11-03-architecture-and-stack.md) sets Go as the primary language for backends and non-UI software, SolidJS + TypeScript + Vite for web frontends, and Hono + TypeScript as the backend alternative when hosting is JavaScript-only or Go is not viable. TanStack Start is excluded. Apply the standard to new work without rewriting existing applications solely for consistency.
+The [architecture and stack decision](decisions/2026-11-03-architecture-and-stack.md) sets SolidJS + TypeScript + Vite for web frontends. Hono + TypeScript is an expected choice for hosted APIs on suitable free JavaScript runtimes. Prefer Go for its efficiency whenever hosting it fits the no-cost and low-operations goals, especially for CLIs and non-UI software. TanStack Start is excluded. Apply the standard to new work without rewriting existing applications solely for consistency.
 
 ## Language
 

@@ -26,7 +26,7 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 
 ## Technical direction
 
-Use [the PLUNZ architecture and stack standard](docs/decisions/2026-11-03-architecture-and-stack.md): Go is the primary backend and non-UI language, SolidJS + TypeScript + Vite is the web frontend standard, and Hono + TypeScript is the backend alternative for JavaScript-only hosts or when Go is not viable. Do not use TanStack Start. Prefer simple, modular, low-cost solutions and Cloudflare where it fits.
+Use [the PLUNZ architecture and stack standard](docs/decisions/2026-11-03-architecture-and-stack.md): SolidJS + TypeScript + Vite for web frontends; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go whenever it fits the product's hosting and cost constraints, especially for CLIs and non-UI programs. Do not use TanStack Start. Aim for no-cost infrastructure, minimal self-hosting, and a small provider footprint.
 
 Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](docs/decisions/2026-11-03-repository-naming.md).
 

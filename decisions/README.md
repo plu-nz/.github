@@ -4,6 +4,7 @@ This directory records choices that affect the PLUNZ brand or multiple products.
 
 ## Decision index
 
+- [Shared visual identity proposal](2026-11-03-visual-identity-proposal.md) — proposed palette roles, typography, mark and app-icon rules, UI iconography, and accessibility; pending review.
 - [Architecture and technology stack](2026-11-03-architecture-and-stack.md) — frontend, backend, hosting, and agent-readiness defaults.
 - [Repository naming convention](2026-11-03-repository-naming.md) — the `type.name` pattern.
 - [English as the official language](2026-11-03-english-as-official-language.md) — language for repositories and product copy.

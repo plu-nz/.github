@@ -35,7 +35,7 @@ Use [the PLUNZ architecture and stack standard](decisions/2026-11-03-architectur
 
 Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](decisions/2026-11-03-repository-naming.md).
 
-Shared visual tokens, icons, and components are planned. No separate design-system package has been adopted yet.
+The [shared visual identity proposal](decisions/2026-11-03-visual-identity-proposal.md) covers tokens, typography, icons, and accessibility. It is pending review; no separate design-system package has been adopted yet.
 
 The GitHub organization is `plu-nz`. Do not rename it.
 

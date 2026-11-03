@@ -51,4 +51,4 @@ Every project repository must include an `AGENTS.md` that describes architecture
 
 ## Consequences
 
-New PLUNZ work starts from these defaults. Most hosted APIs may use Hono + TypeScript because it fits available free tiers; Go remains preferred when it can be deployed efficiently without adding cost or operational burden. Existing projects change implementation only when a product need justifies it. PLUNZ Photo' existing SolidJS frontend and Hono backend on Cloudflare Workers fit this policy directly.
+New PLUNZ work starts from these defaults. Most hosted APIs may use Hono + TypeScript because it fits available free tiers; Go remains preferred when it can be deployed efficiently without adding cost or operational burden. Existing projects change implementation only when a product need justifies it. Capture's SolidJS frontend and Hono backend on Cloudflare Workers fit this policy directly.

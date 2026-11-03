@@ -6,11 +6,11 @@ Small, independent apps for specific needs. Together, they form a digital toolbo
 
 ## Apps
 
-- **PLUNZ Photo** — a personal photo portfolio with a feed and albums, without likes, followers, or comments. In development. [Repository](https://github.com/plu-nz/mono.photo).
-- **PLUNZ Meal** — meal and meal-prep planning. In planning.
-- **PLUNZ Practice** — scheduling and practice administration for psychologists, including appointments, confirmations, and payments. In planning.
+- **Capture** (working name) — a personal photo portfolio with a feed and albums, without likes, followers, or comments. [Repository](https://github.com/plu-nz/mono.capture).
+- **Meal planning** — public name to be decided. In planning.
+- **Psychologist practice** — public name to be decided. In planning.
 
-The [product naming convention](https://github.com/plu-nz/.github/blob/main/decisions/2026-11-03-product-naming.md) defines the family. Intended addresses are not live app links until verified.
+Names are decided product by product. `capture.plu.nz` is the selected photo preview address; no address is announced for the other concepts.
 
 ## Documentation
 

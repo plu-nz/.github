@@ -17,22 +17,22 @@
 
 ## Products
 
-### PLUNZ Photo
+### Capture (working name)
 
-A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Intended address: `photo.plu.nz`. The repository is `plu-nz/mono.photo`; current code and the production deployment still use legacy Capturar identifiers until their migration is validated.
+A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Preview address: `capture.plu.nz`. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
 
-### PLUNZ Meal
+### Meal planning (unnamed)
 
-Meal and meal-prep planning. Tentative address: `meal.plu.nz`.
+Meal and meal-prep planning. Public name and address remain undecided.
 
-### PLUNZ Practice
+### Psychologist practice (unnamed)
 
-Scheduling and practice administration for psychologists, including calendar sync, confirmations, and payments. Intended address: `practice.plu.nz`.
+Scheduling for psychologists, including calendar sync, confirmations, and payments. Public name and address remain undecided.
 
 ## Repositories and infrastructure
 
 - GitHub organization: `plu-nz`. Do not rename it.
-- Keep PLUNZ products in this organization. Migrate the photo product's legacy identifiers deliberately.
+- Keep PLUNZ products in this organization, including the photo app in `mono.capture`.
 - Name repositories with a type prefix and a dot, following `decisions/2026-11-03-repository-naming.md`. Use `mono.` for monorepos.
 - Prefer suitable free tiers, especially Cloudflare where appropriate; minimize self-hosted services and the number of providers.
 - This `.github` repository holds the public organization profile and shared documentation.

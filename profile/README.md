@@ -15,3 +15,5 @@ App names and addresses may change.
 ## Documentation
 
 The [brand context](https://github.com/plu-nz/.github/blob/main/docs/context.md), [shared decisions](https://github.com/plu-nz/.github/blob/main/docs/decisions/README.md), and [agent instructions](https://github.com/plu-nz/.github/blob/main/AGENTS.md) live in this repository.
+
+Track open work on the [PLUNZ Roadmap board](https://github.com/orgs/plu-nz/projects/1/views/3).

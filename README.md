@@ -18,6 +18,7 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 
 ## Using this repository
 
+- Track open work on the [PLUNZ Roadmap board](https://github.com/orgs/plu-nz/projects/1/views/3).
 - Read the [shared context](docs/context.md) when starting a Codex, Claude, or other agent session.
 - Record cross-product choices in [shared decisions](docs/decisions/README.md).
 - Keep implementation details in each product repository.

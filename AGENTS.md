@@ -2,6 +2,8 @@
 
 This repository is the source of shared PLUNZ context. Read `README.md` and `CONTEXT.md` before proposing changes that affect the brand or multiple products.
 
+Start PLUNZ agent sessions from this repository root. See [REPOS.md](REPOS.md) for local project checkouts and Graphify usage. Run `./sync-repos.sh` when the task needs current organization sources. Treat `repos/*` as independent Git repositories: read each product's `README.md` and `AGENTS.md`, check its status, and make its code changes and commits there. Never add `repos/` content to this repository. Prefer an existing `graphify-out/graph.json` for codebase questions; rebuild only when needed. When extracting from the root, pass `--no-gitignore` so Graphify includes the ignored child checkouts.
+
 - Treat product names and subdomains as tentative where indicated. The GitHub organization is `plu-nz`; do not rename it.
 - Distinguish confirmed facts, proposals, and pending decisions.
 - Write repository content in English, including documentation, code comments, issues, pull requests, commit messages, and product copy. Add other languages only for explicitly planned product localization.

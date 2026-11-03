@@ -24,8 +24,11 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 - See the [profile index](profile/README.md) for the public organization introduction.
 - Keep implementation details in each product repository.
 - Follow [AGENTS.md](AGENTS.md) for shared agent instructions.
+- Open AI sessions from this checkout and use the [local repositories guide](REPOS.md) to sync and work on product checkouts in ignored `repos/*` directories.
 
 Keep this repository flat. Every directory, including nested directories, must contain a `README.md` that summarizes its purpose and links to its contents and relevant parent context.
+
+`repos/` and `graphify-out/` are local generated workspaces, fully ignored by Git; their contents are not part of this repository's documented directory tree.
 
 On the roadmap, draft items belong in **Backlog**. Move work to **Todo** only after converting it to a repository issue with a clear goal, actionable steps, and completion criteria.
 

@@ -1,0 +1,5 @@
+# Local checkouts of other PLUNZ repositories; never commit them here.
+/repos/
+
+# Generated Graphify indexes and reports; rebuild from local source.
+/graphify-out/

@@ -2,16 +2,16 @@
 
 **Small apps. Big possibilities.**
 
-Pequenos aplicativos independentes para necessidades específicas. Juntos, formam uma caixa de ferramentas digital: o `+` representa essa união.
+Small, independent apps for specific needs. Together, they form a digital toolbox: the `+` represents how these tools come together.
 
-## Aplicativos
+## Apps
 
-- **Capturar** — um portfólio pessoal de fotos, com feed e álbuns, sem likes, seguidores ou comentários. [Repositório](https://github.com/plu-nz/mono.capturar).
-- **Marmitar** — organização de refeições e marmitas. Em planejamento.
-- **Psincro** — agenda para psicólogos, com horários, confirmações e pagamentos. Em planejamento.
+- **Capturar** — a personal photo portfolio with a feed and albums, without likes, followers, or comments. [Repository](https://github.com/plu-nz/mono.capturar).
+- **Marmitar** — meal and meal-prep planning. In planning.
+- **Psincro** — scheduling for psychologists, including appointments, confirmations, and payments. In planning.
 
-Os nomes e endereços dos aplicativos ainda podem mudar.
+App names and addresses may change.
 
-## Documentação
+## Documentation
 
-O [contexto da marca](https://github.com/plu-nz/.github/blob/main/docs/contexto.md), as [decisões compartilhadas](https://github.com/plu-nz/.github/blob/main/docs/decisoes/README.md) e as [instruções para agentes](https://github.com/plu-nz/.github/blob/main/AGENTS.md) ficam neste repositório.
+The [brand context](https://github.com/plu-nz/.github/blob/main/docs/context.md), [shared decisions](https://github.com/plu-nz/.github/blob/main/docs/decisions/README.md), and [agent instructions](https://github.com/plu-nz/.github/blob/main/AGENTS.md) live in this repository.

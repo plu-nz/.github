@@ -1,1 +1,1 @@
-Leia `AGENTS.md` para as instruções compartilhadas deste repositório. O contexto da PLUNZ está em `README.md` e `docs/contexto.md`.
+Read `AGENTS.md` for shared instructions. PLUNZ context is in `README.md` and `docs/context.md`.

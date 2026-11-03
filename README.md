@@ -2,29 +2,31 @@
 
 **Small apps. Big possibilities.**
 
-PLUNZ é uma marca para aplicativos pequenos e independentes, cada um focado em uma necessidade específica. Juntos, eles formam uma caixa de ferramentas digital. O símbolo `+` representa essa união.
+PLUNZ brings together small, independent apps, each focused on a specific need. Together, they form a digital toolbox. The `+` symbolizes that connection.
 
-Este repositório é o ponto de entrada para o trabalho na PLUNZ: o [perfil público](profile/README.md), contexto compartilhado, decisões e documentação que atravessam os produtos. Código específico de cada aplicativo fica no respectivo repositório.
+This repository holds the [public organization profile](profile/README.md), shared context, and cross-product decisions. Product-specific code and implementation documentation belong in each product repository.
 
-## Produtos
+## Products
 
-| Produto | Ideia | Endereço provisório | Estado |
+| Product | Idea | Tentative address | Status |
 | --- | --- | --- | --- |
-| Capturar | Portfólio de fotos/PWA com fotos do Google Drive ou Photos do usuário, feed e álbuns, sem likes, seguidores ou comentários | `photos.plu.nz` | Conceito inicial; projeto original em `xonha/capturar` |
-| Marmitar | Organização de refeições e marmitas | `meals.plu.nz` | Conceito inicial |
-| Psincro | Agenda de psicólogos com sincronização de horários, confirmações e pagamentos | `calendar.plu.nz` | Conceito inicial |
+| Capturar | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `photos.plu.nz` | Initial concept; originally `xonha/capturar` |
+| Marmitar | Meal and meal-prep planning | `meals.plu.nz` | Initial concept |
+| Psincro | Scheduling for psychologists, with calendar sync, confirmations, and payments | `calendar.plu.nz` | Initial concept |
 
-Nomes e subdomínios podem mudar. O domínio principal é `plu.nz`.
+Product names and subdomains may change. The main domain is `plu.nz`.
 
-## Como usar este repositório
+## Using this repository
 
-- Comece por [Contexto](docs/contexto.md) ao abrir uma sessão de Codex, Claude ou outro agente.
-- Registre decisões que afetam mais de um produto em [Decisões](docs/decisoes/README.md).
-- Mantenha documentação de implementação dentro do repositório do produto.
-- Use [AGENTS.md](AGENTS.md) como instrução comum para agentes.
+- Read the [shared context](docs/context.md) when starting a Codex, Claude, or other agent session.
+- Record cross-product choices in [shared decisions](docs/decisions/README.md).
+- Keep implementation details in each product repository.
+- Follow [AGENTS.md](AGENTS.md) for shared agent instructions.
 
-## Organização técnica
+## Technical direction
 
-A preferência é por infraestrutura Cloudflare de baixo custo, avaliada conforme as necessidades de cada produto. Repositórios que forem monorepos recebem o prefixo `mono-` (por exemplo, API e frontend no mesmo repositório).
+Prefer simple, modular, low-cost solutions. Cloudflare is the preferred infrastructure where it fits. Monorepos use the `mono-` prefix.
 
-A organização GitHub é `plu-nz`. Não alterar seu nome.
+Shared visual tokens, icons, and components are planned, but no framework or package has been adopted as an organization-wide standard.
+
+The GitHub organization is `plu-nz`. Do not rename it.

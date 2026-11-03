@@ -6,11 +6,11 @@ Small, independent apps for specific needs. Together, they form a digital toolbo
 
 ## Apps
 
-- **Capturar** — a personal photo portfolio with a feed and albums, without likes, followers, or comments. [Repository](https://github.com/plu-nz/mono.capturar).
-- **Marmitar** — meal and meal-prep planning. In planning.
-- **Psincro** — scheduling for psychologists, including appointments, confirmations, and payments. In planning.
+- **PLUNZ Photos** — a personal photo portfolio with a feed and albums, without likes, followers, or comments. In development. [Repository](https://github.com/plu-nz/mono.capturar) (legacy repository name).
+- **PLUNZ Meals** — meal and meal-prep planning. In planning.
+- **PLUNZ Practice** — scheduling and practice administration for psychologists, including appointments, confirmations, and payments. In planning.
 
-App names and addresses may change.
+The [product naming convention](https://github.com/plu-nz/.github/blob/main/decisions/2026-11-03-product-naming.md) defines the family. Intended addresses are not live app links until verified.
 
 ## Documentation
 

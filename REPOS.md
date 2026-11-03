@@ -8,7 +8,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 
 | Local checkout | Purpose | Repository |
 | --- | --- | --- |
-| `repos/mono.capturar/` | Photo portfolio application and API | [plu-nz/mono.capturar](https://github.com/plu-nz/mono.capturar) |
+| `repos/mono.capturar/` | PLUNZ Photos application and API (legacy checkout name) | [plu-nz/mono.capturar](https://github.com/plu-nz/mono.capturar) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
 
 The list reflects the projects present when this file was written. The sync script discovers new organization repositories automatically.
@@ -28,7 +28,7 @@ For a quick local code index without model calls:
 
 ```sh
 graphify extract . --no-gitignore --code-only --no-cluster
-graphify query "Where is Capturar's mobile navigation implemented?"
+graphify query "Where is the photo app's mobile navigation implemented?"
 ```
 
 Before rebuilding, check for `graphify-out/graph.json`; if it exists, use `graphify query "<question>"` directly. Re-extract after relevant source changes. The `--code-only` index covers code but not prose documentation; read `README.md`, `AGENTS.md`, and decisions directly or build a fuller graph when those relationships matter. Generated Graphify output is ignored by Git.

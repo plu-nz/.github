@@ -10,11 +10,11 @@ This repository holds the [public organization profile](profile/README.md), shar
 
 | Product | Idea | Tentative address | Status |
 | --- | --- | --- | --- |
-| Capturar | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `photos.plu.nz` | Initial concept; originally `xonha/capturar` |
-| Marmitar | Meal and meal-prep planning | `meals.plu.nz` | Initial concept |
-| Psincro | Scheduling for psychologists, with calendar sync, confirmations, and payments | `calendar.plu.nz` | Initial concept |
+| PLUNZ Photos | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `photos.plu.nz` | In development; legacy repository `mono.capturar` |
+| PLUNZ Meals | Meal and meal-prep planning | `meals.plu.nz` | Initial concept |
+| PLUNZ Practice | Scheduling and practice administration for psychologists, including confirmations and payments | `practice.plu.nz` | Initial concept |
 
-Product names and subdomains may change. The main domain is `plu.nz`.
+The [product naming convention](decisions/2026-11-03-product-naming.md) defines the English-first family. Addresses remain intended destinations until each product launches. The main domain is `plu.nz`.
 
 ## Using this repository
 

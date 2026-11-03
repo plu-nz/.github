@@ -11,6 +11,7 @@ Start PLUNZ agent sessions from this repository root. See [REPOS.md](REPOS.md) f
 - Keep this repository flat. Every directory and nested directory must have a `README.md` that summarizes its purpose and links to its contents and relevant parent context. Update the index when adding, moving, or removing files.
 - Keep Project draft items in **Backlog**. Use **Todo** only for repository issues that are scoped and ready to start; refine and convert a draft before moving it there.
 - Name new repositories using the `type.name` convention in `decisions/2026-11-03-repository-naming.md`.
+- Name products using `PLUNZ + a short English functional noun`; derive a consistent slug for domains and repository suffixes. See `decisions/2026-11-03-product-naming.md`. Treat older product names as legacy identifiers, not current public names.
 - Apply `decisions/2026-11-03-architecture-and-stack.md` to new work: SolidJS + TypeScript + Vite for web UIs; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go when it fits no-cost hosting and low-operations goals, especially for CLIs and non-UI programs. Do not use TanStack Start.
 - Every product repository must have an `AGENTS.md` covering its architecture, responsibilities, directory and code conventions, install/development/build/lint/test commands, dependency policy, and completion checks.
 - Prefer simple, modular, no-cost solutions. Use suitable free tiers, minimize self-hosted services, and keep the provider count small. Cloudflare is preferred where appropriate, not required for every component.

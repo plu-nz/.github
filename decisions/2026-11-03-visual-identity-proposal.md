@@ -6,6 +6,8 @@
 
 PLUNZ is a family of small, independent apps. The `+` expresses their connection. The existing [shared context](../CONTEXT.md) already fixes the organization mark's square, full-background format; its four D-pad-inspired arrows; the order orange/top, blue/bottom, green/left, red/right; and the use of colors from Darkppuccin. Product names and subdomains remain tentative. The [architecture decision](2026-11-03-architecture-and-stack.md) prefers lightweight SolidJS web interfaces and avoids unnecessary shared packages.
 
+The product direction is **mobile first**. [Capturar's bottom navigation](https://github.com/plu-nz/mono.capturar/blob/main/app/src/ui/bottom-nav/index.tsx) is an existing example of keeping primary destinations close to the thumb. This is a navigation principle, not a requirement to copy Capturar's components into every product.
+
 ## Proposed direction
 
 Use a restrained, dark, functional visual language. Product artwork may have its own subject and accent, while the same typography, color roles, spacing, icon conventions, and accessibility checks make the family recognizable. Start with documented assets and CSS custom properties in the `.github` repository and the PLUNZ hub. Publish a library only after two products need the same maintained code.
@@ -58,6 +60,14 @@ Use [Lucide](https://lucide.dev/) as the proposed baseline for functional UI ico
 - Never convey availability, error, or status through hue alone. Pair color with text, icon shape, or another cue.
 - Prefer semantic HTML, visible keyboard focus, meaningful link names, and reduced-motion handling. Test at narrow and zoomed viewports before reusing a pattern across apps.
 - Do not publish inactive product destinations as if they were live. The hub should distinguish available apps from concepts and link to a verified destination only.
+
+### 6. Mobile-first navigation and reachability
+
+- Design each app's smallest supported mobile viewport and its primary journeys first; expand the same information architecture for tablet and desktop. Validate at narrow widths, zoomed text, and touch input before calling a flow complete.
+- Prefer the lower part of the mobile screen for frequent navigation and primary actions. For apps with several persistent top-level destinations, use a bottom navigation bar as the default pattern, following Capturar's direction. Keep the destinations few, stable, clearly labeled, and visibly indicate the current one.
+- Keep less frequent settings, account management, and long-form content out of the primary bar. A simple landing page or a one-screen flow may use a clear bottom-positioned action without a persistent navigation bar; choose the pattern from the actual task and explain exceptions in the product repository.
+- Respect `env(safe-area-inset-bottom)` and device/browser chrome. Reserve enough page padding so the bar never covers content, controls, dialogs, or the final scroll target. Check behavior with the on-screen keyboard open and with long labels or localization.
+- Give touch controls adequate target size and spacing, visible focus, text labels, and semantic navigation markup. Do not make important actions depend on a gesture alone. On larger screens, adapt placement when it improves use without changing destination meaning.
 
 ## MVP implementation and ownership
 

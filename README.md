@@ -25,7 +25,7 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 
 ## Technical direction
 
-Prefer simple, modular, low-cost solutions. Cloudflare is the preferred infrastructure where it fits. Monorepos use the `mono-` prefix.
+Prefer simple, modular, low-cost solutions. Cloudflare is the preferred infrastructure where it fits. Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](docs/decisions/2026-11-03-repository-naming.md).
 
 Shared visual tokens, icons, and components are planned, but no framework or package has been adopted as an organization-wide standard.
 

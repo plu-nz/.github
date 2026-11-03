@@ -37,6 +37,10 @@ Scheduling for psychologists, including calendar sync, confirmations, and paymen
 - Prefer low-cost Cloudflare infrastructure where appropriate.
 - This `.github` repository holds the public organization profile and shared documentation.
 
+## Language
+
+English is the official language across the PLUNZ organization. Repository documentation, code comments, issues, pull requests, commit messages, and product copy are written in English by default. Additional product languages require an explicit localization plan.
+
 ## Shared design system
 
 The intent is to develop shared visual tokens, icons, and reusable components as products need them. The former `lib.design_system` repository contained only a short description and an MIT license; it had no implemented design-system assets. Solid and Storybook appeared in its description, but neither is an approved organization-wide stack decision. Create a dedicated library repository if reusable code emerges.

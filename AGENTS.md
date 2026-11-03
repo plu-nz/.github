@@ -4,6 +4,7 @@ This repository is the source of shared PLUNZ context. Read `README.md` and `doc
 
 - Treat product names and subdomains as tentative where indicated. The GitHub organization is `plu-nz`; do not rename it.
 - Distinguish confirmed facts, proposals, and pending decisions.
+- Write repository content in English, including documentation, code comments, issues, pull requests, commit messages, and product copy. Add other languages only for explicitly planned product localization.
 - Record shared decisions in `docs/decisions/`; keep product details in each product repository.
 - Prefer simple, modular, low-cost solutions. Cloudflare is the infrastructure preference, not a requirement for every component.
 - Treat shared design-system tokens, icons, and components as planned work. Do not assume Solid, Storybook, or another framework has been selected as an organization-wide standard.

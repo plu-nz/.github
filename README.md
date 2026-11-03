@@ -30,3 +30,7 @@ Prefer simple, modular, low-cost solutions. Cloudflare is the preferred infrastr
 Shared visual tokens, icons, and components are planned, but no framework or package has been adopted as an organization-wide standard.
 
 The GitHub organization is `plu-nz`. Do not rename it.
+
+## Language
+
+English is the official language of the PLUNZ organization. Use English for repository documentation, code comments, issues, pull requests, commit messages, and product copy by default. Product localization may add other languages when explicitly planned.

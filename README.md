@@ -10,8 +10,8 @@ This repository holds the [public organization profile](profile/README.md), shar
 
 | Product | Idea | Tentative address | Status |
 | --- | --- | --- | --- |
-| PLUNZ Photos | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `photos.plu.nz` | In development; legacy repository `mono.capturar` |
-| PLUNZ Meals | Meal and meal-prep planning | `meals.plu.nz` | Initial concept |
+| PLUNZ Photo | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `photo.plu.nz` | In development; repository `mono.photo` |
+| PLUNZ Meal | Meal and meal-prep planning | `meal.plu.nz` | Initial concept |
 | PLUNZ Practice | Scheduling and practice administration for psychologists, including confirmations and payments | `practice.plu.nz` | Initial concept |
 
 The [product naming convention](decisions/2026-11-03-product-naming.md) defines the English-first family. Addresses remain intended destinations until each product launches. The main domain is `plu.nz`.

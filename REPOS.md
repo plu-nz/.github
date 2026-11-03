@@ -8,7 +8,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 
 | Local checkout | Purpose | Repository |
 | --- | --- | --- |
-| `repos/mono.capturar/` | PLUNZ Photos application and API (legacy checkout name) | [plu-nz/mono.capturar](https://github.com/plu-nz/mono.capturar) |
+| `repos/mono.photo/` | PLUNZ Photo application and API | [plu-nz/mono.photo](https://github.com/plu-nz/mono.photo) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
 
 The list reflects the projects present when this file was written. The sync script discovers new organization repositories automatically.

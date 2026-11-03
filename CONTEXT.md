@@ -17,13 +17,13 @@
 
 ## Products
 
-### PLUNZ Photos
+### PLUNZ Photo
 
-A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Intended address: `photos.plu.nz`. The current code and deployment still use legacy Capturar identifiers; the repository is `plu-nz/mono.capturar` until its migration is validated.
+A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Intended address: `photo.plu.nz`. The repository is `plu-nz/mono.photo`; current code and the production deployment still use legacy Capturar identifiers until their migration is validated.
 
-### PLUNZ Meals
+### PLUNZ Meal
 
-Meal and meal-prep planning. Tentative address: `meals.plu.nz`.
+Meal and meal-prep planning. Tentative address: `meal.plu.nz`.
 
 ### PLUNZ Practice
 

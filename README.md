@@ -27,6 +27,8 @@ Product names and subdomains may change. The main domain is `plu.nz`.
 
 Keep this repository flat. Every directory, including nested directories, must contain a `README.md` that summarizes its purpose and links to its contents and relevant parent context.
 
+On the roadmap, draft items belong in **Backlog**. Move work to **Todo** only after converting it to a repository issue with a clear goal, actionable steps, and completion criteria.
+
 ## Technical direction
 
 Use [the PLUNZ architecture and stack standard](decisions/2026-11-03-architecture-and-stack.md): SolidJS + TypeScript + Vite for web frontends; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go whenever it fits the product's hosting and cost constraints, especially for CLIs and non-UI programs. Do not use TanStack Start. Aim for no-cost infrastructure, minimal self-hosting, and a small provider footprint.

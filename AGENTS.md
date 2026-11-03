@@ -7,6 +7,7 @@ This repository is the source of shared PLUNZ context. Read `README.md` and `CON
 - Write repository content in English, including documentation, code comments, issues, pull requests, commit messages, and product copy. Add other languages only for explicitly planned product localization.
 - Record shared decisions in `decisions/`; keep product details in each product repository.
 - Keep this repository flat. Every directory and nested directory must have a `README.md` that summarizes its purpose and links to its contents and relevant parent context. Update the index when adding, moving, or removing files.
+- Keep Project draft items in **Backlog**. Use **Todo** only for repository issues that are scoped and ready to start; refine and convert a draft before moving it there.
 - Name new repositories using the `type.name` convention in `decisions/2026-11-03-repository-naming.md`.
 - Apply `decisions/2026-11-03-architecture-and-stack.md` to new work: SolidJS + TypeScript + Vite for web UIs; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go when it fits no-cost hosting and low-operations goals, especially for CLIs and non-UI programs. Do not use TanStack Start.
 - Every product repository must have an `AGENTS.md` covering its architecture, responsibilities, directory and code conventions, install/development/build/lint/test commands, dependency policy, and completion checks.

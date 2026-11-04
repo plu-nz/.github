@@ -7,10 +7,11 @@ Small, independent apps for specific needs. Together, they form a digital toolbo
 ## Apps
 
 - **Capture** (working name) — a personal photo portfolio with a feed and albums, without likes, followers, or comments. [Repository](https://github.com/plu-nz/mono.capture).
+- **[Split](https://split.plu.nz/)** — divide a restaurant bill without an account, with optional AI-assisted receipt scanning. [Repository](https://github.com/plu-nz/mono.split).
 - **Meal planning** — public name to be decided. In planning.
 - **Psychologist practice** — public name to be decided. In planning.
 
-Names are decided product by product. `capture.plu.nz` is the selected photo preview address; no address is announced for the other concepts.
+Names are decided product by product. `capture.plu.nz` is the selected photo preview address; `split.plu.nz` is Split's live address. No address is announced for the other concepts.
 
 ## Documentation
 

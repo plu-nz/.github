@@ -4,9 +4,9 @@
 
 ## Context and confirmed constraints
 
-PLUNZ is a family of small, independent apps. The `+` expresses their connection. The existing [shared context](../CONTEXT.md) already fixes the organization mark's square, full-background format; its four D-pad-inspired arrows; the order orange/top, blue/bottom, green/left, red/right; and the use of colors from Darkppuccin. Product names and subdomains remain tentative. The [architecture decision](2026-11-03-architecture-and-stack.md) prefers lightweight SolidJS web interfaces and avoids unnecessary shared packages.
+PLUNZ is a family of small, independent apps. The `+` expresses their connection. The existing [shared context](../CONTEXT.md) already fixes the organization mark's square, full-background format; its four D-pad-inspired arrows; the order orange/top, blue/bottom, green/left, red/right; and the use of colors from Darkppuccin. Capture is the photo product’s current working name and `capture.plu.nz` hosts its read-only preview. Names for the other concepts remain open and are decided individually. The [architecture decision](2026-11-03-architecture-and-stack.md) prefers lightweight SolidJS web interfaces and avoids unnecessary shared packages.
 
-The product direction is **mobile first**. [Capturar's bottom navigation](https://github.com/plu-nz/mono.capturar/blob/main/app/src/ui/bottom-nav/index.tsx) is an existing example of keeping primary destinations close to the thumb. This is a navigation principle, not a requirement to copy Capturar's components into every product.
+The product direction is **mobile first**. [Capture's bottom navigation](https://github.com/plu-nz/mono.capture/blob/main/app/src/ui/bottom-nav/index.tsx) is an existing example of keeping primary destinations close to the thumb. This is a navigation principle, not a requirement to copy Capture's components into every product.
 
 ## Proposed direction
 
@@ -46,7 +46,7 @@ Use semantic names in product CSS, for example `--color-page`, `--color-surface`
 
 - Master artwork: vector SVG on a square artboard with an opaque, edge-to-edge `#0f0f0f` background and no rounded corners. Four directional forms meet around a central negative-space `+`, with orange/top, blue/bottom, green/left, and red/right. Keep the silhouette recognizable in monochrome and at `32px`.
 - Keep the master mark separate from each **product icon**. Product icons use the same square artboard, opaque background, safe margins, visual weight, and preferably a recognizable central motif. A product may use one Darkppuccin accent and a small family cue, but must remain distinguishable from the PLUNZ mark and the other apps at launcher size. Do not use a generic D-pad with only a different color for every app.
-- Make a comparison sheet showing PLUNZ, Capturar, Marmitar, and Psincro at `16`, `32`, `192`, and `512px`; check recognition in grayscale and on dark and light launcher surrounds. Product pictograms are proposals until each product validates its own subject and name.
+- Make a comparison sheet showing PLUNZ and Capture, then add other products when their identities are defined at `16`, `32`, `192`, and `512px`; check recognition in grayscale and on dark and light launcher surrounds. Product pictograms are proposals until each product validates its own subject and name.
 - Export the vector master, `32px` favicon, `192px` and `512px` PWA icons, a dedicated maskable version with important artwork inside the centered 80%-diameter safe circle, and a single-color version. The maskable variant may have extra padding while its artwork remains on a full opaque square. See [MDN's PWA icon guidance](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons).
 - Record source, license, export script, and minimum-size checks alongside each asset. Never treat interface icon glyphs as a substitute for app identity artwork.
 
@@ -64,7 +64,7 @@ Use [Lucide](https://lucide.dev/) as the proposed baseline for functional UI ico
 ### 6. Mobile-first navigation and reachability
 
 - Design each app's smallest supported mobile viewport and its primary journeys first; expand the same information architecture for tablet and desktop. Validate at narrow widths, zoomed text, and touch input before calling a flow complete.
-- Prefer the lower part of the mobile screen for frequent navigation and primary actions. For apps with several persistent top-level destinations, use a bottom navigation bar as the default pattern, following Capturar's direction. Keep the destinations few, stable, clearly labeled, and visibly indicate the current one.
+- Prefer the lower part of the mobile screen for frequent navigation and primary actions. For apps with several persistent top-level destinations, use a bottom navigation bar as the default pattern, following Capture's direction. Keep the destinations few, stable, clearly labeled, and visibly indicate the current one.
 - Keep less frequent settings, account management, and long-form content out of the primary bar. A simple landing page or a one-screen flow may use a clear bottom-positioned action without a persistent navigation bar; choose the pattern from the actual task and explain exceptions in the product repository.
 - Respect `env(safe-area-inset-bottom)` and device/browser chrome. Reserve enough page padding so the bar never covers content, controls, dialogs, or the final scroll target. Check behavior with the on-screen keyboard open and with long labels or localization.
 - Give touch controls adequate target size and spacing, visible focus, text labels, and semantic navigation markup. Do not make important actions depend on a gesture alone. On larger screens, adapt placement when it improves use without changing destination meaning.
@@ -73,7 +73,7 @@ Use [Lucide](https://lucide.dev/) as the proposed baseline for functional UI ico
 
 1. Build the hub with local semantic CSS tokens and a vector PLUNZ mark, matching this proposed specification. Do not publish this proposal as an already approved standard.
 2. Verify the exact color source, contrast pairs, mobile layout, keyboard flow, screen-reader labels, favicon, PWA icons where the hub is installable, and clear product status.
-3. Collect real product needs before extracting shared components or adopting Storybook. Keep product-specific artwork and component behavior in each product repository.
+3. Use Capture’s Storybook proof of concept to evaluate reusable components. Collect real product needs before extracting a shared package. Keep product-specific artwork and component behavior in each product repository.
 4. On approval, change this document's status to **Accepted**, update the [decision index](README.md), and decide whether a separate asset repository is justified. Record any approved changes made during review.
 
 ## Open decisions

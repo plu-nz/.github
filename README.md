@@ -43,6 +43,8 @@ Shared visual tokens, icons, and components are planned. No separate design-syst
 
 Use [pnpm](decisions/2026-11-04-pnpm-package-manager.md) for JavaScript and TypeScript projects across the organization.
 
+Product apps are [mobile first and installable on smartphones](decisions/2026-11-04-mobile-first-and-installable-apps.md).
+
 The GitHub organization is `plu-nz`. Do not rename it.
 
 ## Language

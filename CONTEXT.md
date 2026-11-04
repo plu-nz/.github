@@ -47,6 +47,8 @@ The [architecture and stack decision](decisions/2026-11-03-architecture-and-stac
 
 Use [pnpm](decisions/2026-11-04-pnpm-package-manager.md) for JavaScript and TypeScript projects.
 
+Design product apps mobile first and make web product apps installable on smartphones, following the [mobile-first and installability decision](decisions/2026-11-04-mobile-first-and-installable-apps.md).
+
 ## Language
 
 English is the official language across the PLUNZ organization. Repository documentation, code comments, issues, pull requests, commit messages, and product copy are written in English by default. Additional product languages require an explicit localization plan.

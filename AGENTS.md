@@ -13,6 +13,7 @@ Start PLUNZ agent sessions from this repository root. See [REPOS.md](REPOS.md) f
 - Name new repositories using the `type.name` convention in `decisions/2026-11-03-repository-naming.md`.
 - Decide public product names individually. Do not infer a required prefix, singular form, or domain slug from another product. Use English for public names and copy by default.
 - Apply `decisions/2026-11-03-architecture-and-stack.md` to new work: SolidJS + TypeScript + Vite for web UIs; Hono + TypeScript for hosted APIs on suitable free JavaScript runtimes; Go when it fits no-cost hosting and low-operations goals, especially for CLIs and non-UI programs. Do not use TanStack Start.
+- Use pnpm for all JavaScript and TypeScript projects, as recorded in `decisions/2026-11-04-pnpm-package-manager.md`. Do not use npm, yarn, or Bun for PLUNZ project dependencies or scripts.
 - Every product repository must have an `AGENTS.md` covering its architecture, responsibilities, directory and code conventions, install/development/build/lint/test commands, dependency policy, and completion checks.
 - Prefer simple, modular, no-cost solutions. Use suitable free tiers, minimize self-hosted services, and keep the provider count small. Cloudflare is preferred where appropriate, not required for every component.
 - Treat shared design-system tokens, icons, and components as planned work. SolidJS is the web UI standard, but no separate design-system package or Storybook setup has been approved.

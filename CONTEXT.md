@@ -21,6 +21,10 @@
 
 A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Preview address: `capture.plu.nz`. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
 
+### Split
+
+An anonymous, mobile-first bill splitter at `split.plu.nz` in `plu-nz/mono.split`. Visitors can enter bill items, add people, assign items, and copy exact per-person totals without accounts. A receipt photo can be sent to Cloudflare Workers AI for suggested line items; every suggestion must be reviewed. Bill drafts remain on the visitor's device. No payment or restaurant management is included.
+
 ### Meal planning (unnamed)
 
 Meal and meal-prep planning. Public name and address remain undecided.
@@ -40,6 +44,8 @@ Scheduling for psychologists, including calendar sync, confirmations, and paymen
 ## Architecture and stack
 
 The [architecture and stack decision](decisions/2026-11-03-architecture-and-stack.md) sets SolidJS + TypeScript + Vite for web frontends. Hono + TypeScript is an expected choice for hosted APIs on suitable free JavaScript runtimes. Prefer Go for its efficiency whenever hosting it fits the no-cost and low-operations goals, especially for CLIs and non-UI software. TanStack Start is excluded. Apply the standard to new work without rewriting existing applications solely for consistency.
+
+Use [pnpm](decisions/2026-11-04-pnpm-package-manager.md) for JavaScript and TypeScript projects.
 
 ## Language
 

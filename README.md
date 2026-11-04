@@ -11,10 +11,11 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Product | Idea | Tentative address | Status |
 | --- | --- | --- | --- |
 | Capture (working name) | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `capture.plu.nz` | In development; repository `mono.capture` |
+| Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 
-Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; other product names and addresses remain open. The main domain is `plu.nz`.
+Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz` is Split's address. Other product names and addresses remain open. The main domain is `plu.nz`.
 
 ## Using this repository
 
@@ -39,6 +40,8 @@ Use [the PLUNZ architecture and stack standard](decisions/2026-11-03-architectur
 Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](decisions/2026-11-03-repository-naming.md).
 
 Shared visual tokens, icons, and components are planned. No separate design-system package has been adopted yet.
+
+Use [pnpm](decisions/2026-11-04-pnpm-package-manager.md) for JavaScript and TypeScript projects across the organization.
 
 The GitHub organization is `plu-nz`. Do not rename it.
 

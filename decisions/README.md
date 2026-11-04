@@ -7,5 +7,6 @@ This directory records choices that affect the PLUNZ brand or multiple products.
 - [Architecture and technology stack](2026-11-03-architecture-and-stack.md) — frontend, backend, hosting, and agent-readiness defaults.
 - [Repository naming convention](2026-11-03-repository-naming.md) — the `type.name` pattern.
 - [English as the official language](2026-11-03-english-as-official-language.md) — language for repositories and product copy.
+- [pnpm package manager](2026-11-04-pnpm-package-manager.md) — package management for JavaScript and TypeScript projects.
 
 Current preferences and facts are in the [shared context](../CONTEXT.md); do not present them as final decisions without validation. Return to the [repository index](../README.md) for the full map.

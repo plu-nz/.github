@@ -11,6 +11,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 | `repos/mono.capture/` | Capture photo portfolio application and API | [plu-nz/mono.capture](https://github.com/plu-nz/mono.capture) |
 | `repos/mono.split/` | Split anonymous bill splitter and receipt-scan API | [plu-nz/mono.split](https://github.com/plu-nz/mono.split) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
+| `repos/ops.workflows/` | Shared CI and CD workflows | [plu-nz/ops.workflows](https://github.com/plu-nz/ops.workflows) |
 
 The list reflects the projects present when this file was written. The sync script discovers new organization repositories automatically.
 

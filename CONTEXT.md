@@ -53,12 +53,15 @@ Design product apps mobile first and make web product apps installable on smartp
 
 English is the official language across the PLUNZ organization. Repository documentation, code comments, issues, pull requests, commit messages, and product copy are written in English by default. Additional product languages require an explicit localization plan.
 
+The [product localization decision](decisions/2026-11-04-product-localization.md) approves English, Portuguese, and Spanish interfaces for all apps. Apps follow the device language by default, fall back to English, and share an explicit language choice across PLUNZ web apps on the same browser through a `plu.nz` cookie.
+
 ## Shared design system
 
 The intent is to develop shared visual tokens, icons, and reusable components as products need them. The former `lib.design_system` repository contained only a short description and an MIT license; it had no implemented design-system assets. SolidJS is now the standard for web interfaces; Storybook and a separate design-system package remain undecided. Create a dedicated library repository if reusable code emerges.
 
 ## Open questions
 
+- Revisit a shared interface for manually editing product translations if maintaining in-repository catalogs becomes cumbersome.
 - Refine product names and subdomains.
 - Define each product's architecture and deployment in its own repository.
 - Decide which design-system elements should be shared once concrete product needs are known.

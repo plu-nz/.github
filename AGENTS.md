@@ -7,6 +7,7 @@ Start PLUNZ agent sessions from this repository root. See [REPOS.md](REPOS.md) f
 - Treat product names and subdomains as tentative where indicated. The GitHub organization is `plu-nz`; do not rename it.
 - Distinguish confirmed facts, proposals, and pending decisions.
 - Write repository content in English, including documentation, code comments, issues, pull requests, commit messages, and product copy. Add other languages only for explicitly planned product localization.
+- Apply `decisions/2026-11-04-product-localization.md` to user-facing apps: English, Portuguese, and Spanish; system language by default; English fallback; shared `plu.nz` web preference with local fallback; an accessible language selector.
 - Record shared decisions in `decisions/`; keep product details in each product repository.
 - Keep this repository flat. Every directory and nested directory must have a `README.md` that summarizes its purpose and links to its contents and relevant parent context. Update the index when adding, moving, or removing files.
 - Keep Project draft items in **Backlog**. Use **Todo** only for repository issues that are scoped and ready to start; refine and convert a draft before moving it there.

@@ -9,5 +9,6 @@ This directory records choices that affect the PLUNZ brand or multiple products.
 - [English as the official language](2026-11-03-english-as-official-language.md) — language for repositories and product copy.
 - [pnpm package manager](2026-11-04-pnpm-package-manager.md) — package management for JavaScript and TypeScript projects.
 - [Mobile-first and installable product apps](2026-11-04-mobile-first-and-installable-apps.md) — smartphone layout, navigation, PWA installation, and device checks.
+- [Product localization](2026-11-04-product-localization.md) — English, Portuguese, and Spanish interfaces and device language preferences.
 
 Current preferences and facts are in the [shared context](../CONTEXT.md); do not present them as final decisions without validation. Return to the [repository index](../README.md) for the full map.

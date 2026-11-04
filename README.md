@@ -22,6 +22,7 @@ Decide product names individually. `capture.plu.nz` is the selected address for 
 - Track open work on the [PLUNZ Roadmap board](https://github.com/orgs/plu-nz/projects/1/views/3).
 - Read the [shared context](CONTEXT.md) when starting a Codex, Claude, or other agent session.
 - Browse the [decisions index](decisions/README.md) for accepted cross-product choices.
+- Follow the [product localization decision](decisions/2026-11-04-product-localization.md) for English, Portuguese, and Spanish interfaces.
 - See the [profile index](profile/README.md) for the public organization introduction.
 - Keep implementation details in each product repository.
 - Follow [AGENTS.md](AGENTS.md) for shared agent instructions.

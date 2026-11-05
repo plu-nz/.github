@@ -25,9 +25,9 @@ A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a
 
 An anonymous, mobile-first bill splitter at `split.plu.nz` in `plu-nz/mono.split`. Visitors can enter bill items, add people, assign items, and copy exact per-person totals without accounts. A receipt photo can be sent to Cloudflare Workers AI for suggested line items; every suggestion must be reviewed. Bill drafts remain on the visitor's device. No payment or restaurant management is included.
 
-### Pomodoro (working name)
+### Pomodoro
 
-A local, mobile-first focus timer in `plu-nz/web.pomodoro`. Its MVP has 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after four completed focus sessions. It has no accounts or backend. The public name, address, and deployment are pending decisions.
+A local, mobile-first focus timer at `pomodoro.plu.nz` in `plu-nz/web.pomodoro`. Its MVP has 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after four completed focus sessions. It has no accounts or backend.
 
 ### Meal planning (unnamed)
 

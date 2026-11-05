@@ -12,11 +12,11 @@ This repository holds the [public organization profile](profile/README.md), shar
 | --- | --- | --- | --- |
 | Capture (working name) | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `capture.plu.nz` | In development; repository `mono.capture` |
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
-| Pomodoro (working name) | Local focus timer with short and long breaks | To be decided | MVP code in `web.pomodoro`; not deployed |
+| Pomodoro | Local focus timer with short and long breaks | `pomodoro.plu.nz` | Live; repository `web.pomodoro` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 
-Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz` is Split's address. Other product names and addresses remain open. The main domain is `plu.nz`.
+Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz` and `pomodoro.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
 
 ## Using this repository
 

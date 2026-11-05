@@ -61,7 +61,7 @@ The [product localization decision](decisions/2026-11-04-product-localization.md
 
 ## Shared design system
 
-The intent is to develop shared visual tokens, icons, and reusable components as products need them. The former `lib.design_system` repository contained only a short description and an MIT license; it had no implemented design-system assets. SolidJS is now the standard for web interfaces; Storybook and a separate design-system package remain undecided. Create a dedicated library repository if reusable code emerges.
+The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `TextField`, and `Card`. Apps adopt pinned revisions incrementally; the library does not yet replace their existing controls or styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
 
 ## Open questions
 

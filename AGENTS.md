@@ -18,6 +18,6 @@ Start PLUNZ agent sessions from this repository root. See [REPOS.md](REPOS.md) f
 - Design product apps mobile first and make web product apps installable on smartphones, following `decisions/2026-11-04-mobile-first-and-installable-apps.md`.
 - Every product repository must have an `AGENTS.md` covering its architecture, responsibilities, directory and code conventions, install/development/build/lint/test commands, dependency policy, and completion checks.
 - Prefer simple, modular, no-cost solutions. Use suitable free tiers, minimize self-hosted services, and keep the provider count small. Cloudflare is preferred where appropriate, not required for every component.
-- Treat shared design-system tokens, icons, and components as planned work. SolidJS is the web UI standard, but no separate design-system package or Storybook setup has been approved.
+- Use `lib.storybook` for shared SolidJS tokens and components, with Storybook for interactive review, as recorded in `decisions/2026-11-04-shared-design-system.md`. Adopt components in product repositories through focused changes.
 - Do not assume access to a user's Google Drive or Photos, or select an integration before validating permissions, limits, and the intended user experience.
 - When working on a product, also read that product repository's instructions.

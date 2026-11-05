@@ -41,7 +41,7 @@ Use [the PLUNZ architecture and stack standard](decisions/2026-11-03-architectur
 
 Repository names follow the `type.name` pattern, inspired by `devbotzeiss`; see the [naming convention](decisions/2026-11-03-repository-naming.md).
 
-Shared visual tokens, icons, and components are planned. No separate design-system package has been adopted yet.
+The [shared design system](decisions/2026-11-04-shared-design-system.md) lives in `lib.storybook`; its interactive component workshop is at [storybook.plu.nz](https://storybook.plu.nz/). Apps adopt it through focused product changes.
 
 Use [pnpm](decisions/2026-11-04-pnpm-package-manager.md) for JavaScript and TypeScript projects across the organization.
 

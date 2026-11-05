@@ -12,6 +12,7 @@ This repository holds the [public organization profile](profile/README.md), shar
 | --- | --- | --- | --- |
 | Capture (working name) | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `capture.plu.nz` | In development; repository `mono.capture` |
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
+| Pomodoro (working name) | Local focus timer with short and long breaks | To be decided | MVP code in `web.pomodoro`; not deployed |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 

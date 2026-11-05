@@ -61,7 +61,7 @@ The [product localization decision](decisions/2026-11-04-product-localization.md
 
 ## Shared design system
 
-The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `TextField`, and `Card`. Apps adopt pinned revisions incrementally; the library does not yet replace their existing controls or styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
+The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `LinkButton`, `TextField`, and `Card`. The home, Split, and Pomodoro use pinned revisions in their live apps. Capture's profile-creation form adopts the library on its open refactor PR #55; that change is not deployed. Product-specific controls remain local, and the library does not replace existing styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
 
 ## Open questions
 

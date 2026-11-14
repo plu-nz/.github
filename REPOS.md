@@ -11,7 +11,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 | `repos/mono.capture/` | Capture photo portfolio application and API | [plu-nz/mono.capture](https://github.com/plu-nz/mono.capture) |
 | `repos/mono.split/` | Split anonymous bill splitter and receipt-scan API | [plu-nz/mono.split](https://github.com/plu-nz/mono.split) |
 | `repos/web.pomodoro/` | Local Pomodoro focus timer | [plu-nz/web.pomodoro](https://github.com/plu-nz/web.pomodoro) |
-| `repos/mono.passage/` | Passport (formerly Passage) desktop app, browser extension, and native host for GNU `pass` vaults | [plu-nz/mono.passport](https://github.com/plu-nz/mono.passport) |
+| `repos/mono.passport/` | Passport (formerly Passage) desktop app, browser extension, and native host for GNU `pass` vaults | [plu-nz/mono.passport](https://github.com/plu-nz/mono.passport) |
 | `repos/lib.storybook/` | Shared SolidJS components and Storybook | [plu-nz/lib.storybook](https://github.com/plu-nz/lib.storybook) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
 | `repos/web.bazzite/` | Public information and privacy site for private Bazzite services | [plu-nz/web.bazzite](https://github.com/plu-nz/web.bazzite) |

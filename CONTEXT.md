@@ -29,6 +29,10 @@ An anonymous, mobile-first bill splitter at `split.plu.nz` in `plu-nz/mono.split
 
 A local, mobile-first focus timer at `pomodoro.plu.nz` in `plu-nz/web.pomodoro`. Its MVP has 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after four completed focus sessions. It has no accounts or backend.
 
+### Manga
+
+A local-first manga reader PWA at `manga.plu.nz` in `plu-nz/mono.manga`. It searches MangaDex through a small Cloudflare Worker relay (catalog and images, no storage), imports the user's own CBZ/ZIP files, keeps library, progress, and offline chapters in IndexedDB, and reads right-to-left, left-to-right, or vertically. Chapters convert in the browser to fixed-layout EPUBs sized for the chosen Kindle and can be emailed to a `@kindle.com` address with the Gmail API (`gmail.send`) or downloaded. Optional sync uses the Google Drive `appDataFolder`. Google features require an OAuth client that is not configured yet.
+
 ### Meal planning (unnamed)
 
 Meal and meal-prep planning. Public name and address remain undecided.

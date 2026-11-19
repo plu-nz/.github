@@ -14,6 +14,7 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
 | Pomodoro | Local focus timer with short and long breaks | `pomodoro.plu.nz` | Live; repository `web.pomodoro` |
 | Manga | Local-first manga reader that converts chapters to Kindle EPUBs and sends them from the user's Gmail | `manga.plu.nz` | MVP; repository `mono.manga` |
+| Lounge (working name) | Linux TV app for Stremio addons, used with a remote control | None (desktop app) | MVP; repository `app.lounge` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 

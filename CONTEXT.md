@@ -33,6 +33,10 @@ A local, mobile-first focus timer at `pomodoro.plu.nz` in `plu-nz/web.pomodoro`.
 
 A local-first manga reader PWA at `manga.plu.nz` in `plu-nz/mono.manga`. It searches MangaDex through a small Cloudflare Worker relay (catalog and images, no storage), imports the user's own CBZ/ZIP files, keeps library, progress, and offline chapters in IndexedDB, and reads right-to-left, left-to-right, or vertically. Chapters convert in the browser to fixed-layout EPUBs sized for the chosen Kindle and can be emailed to a `@kindle.com` address with the Gmail API (`gmail.send`) or downloaded. Optional sync uses the Google Drive `appDataFolder`. Google features require an OAuth client that is not configured yet.
 
+### Lounge (working name)
+
+A Linux TV app in `plu-nz/app.lounge`, built with Go, Wails 3, and SolidJS, for watching content from Stremio addons with a remote control. It takes its features and UX from Lumera, an Android TV client, but contains none of Lumera's code. Video plays through libmpv inside the app window, under the HTML interface. Torrents stream through an embedded `anacrolix/torrent` engine, so Stremio Service is not needed. It is tested on Omarchy; packaging for Bazzite is pending. See the [decision](decisions/2026-11-19-lounge-tv-client.md).
+
 ### Meal planning (unnamed)
 
 Meal and meal-prep planning. Public name and address remain undecided.

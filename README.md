@@ -14,10 +14,11 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
 | Pomodoro | Local focus timer with short and long breaks | `pomodoro.plu.nz` | Live; repository `web.pomodoro` |
 | Manga | Local-first manga reader that converts chapters to Kindle EPUBs and sends them from the user's Gmail | `manga.plu.nz` | MVP; repository `mono.manga` |
+| PLUNZ TV | TV-oriented Stremio Web fork with remote navigation and playback through the user's local Stremio Service | `stremio.plu.nz` | Live; repository `web.stremio_tv` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 
-Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz`, `pomodoro.plu.nz`, and `manga.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
+Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz`, `pomodoro.plu.nz`, `manga.plu.nz`, and `stremio.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
 
 ## Using this repository
 

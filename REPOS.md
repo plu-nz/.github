@@ -12,6 +12,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 | `repos/mono.split/` | Split anonymous bill splitter and receipt-scan API | [plu-nz/mono.split](https://github.com/plu-nz/mono.split) |
 | `repos/web.pomodoro/` | Local Pomodoro focus timer | [plu-nz/web.pomodoro](https://github.com/plu-nz/web.pomodoro) |
 | `repos/mono.manga/` | Manga reader PWA with Kindle EPUB conversion and its MangaDex relay Worker | [plu-nz/mono.manga](https://github.com/plu-nz/mono.manga) |
+| `repos/web.stremio_tv/` | TV-oriented Stremio Web fork | [plu-nz/web.stremio_tv](https://github.com/plu-nz/web.stremio_tv) |
 | `repos/mono.passport/` | Passport (formerly Passage) desktop app, browser extension, and native host for GNU `pass` vaults | [plu-nz/mono.passport](https://github.com/plu-nz/mono.passport) |
 | `repos/lib.storybook/` | Shared SolidJS components and Storybook | [plu-nz/lib.storybook](https://github.com/plu-nz/lib.storybook) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |

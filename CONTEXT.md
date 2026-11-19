@@ -33,6 +33,10 @@ A local, mobile-first focus timer at `pomodoro.plu.nz` in `plu-nz/web.pomodoro`.
 
 A local-first manga reader PWA at `manga.plu.nz` in `plu-nz/mono.manga`. It searches MangaDex through a small Cloudflare Worker relay (catalog and images, no storage), imports the user's own CBZ/ZIP files, keeps library, progress, and offline chapters in IndexedDB, and reads right-to-left, left-to-right, or vertically. Chapters convert in the browser to fixed-layout EPUBs sized for the chosen Kindle and can be emailed to a `@kindle.com` address with the Gmail API (`gmail.send`) or downloaded. Optional sync uses the Google Drive `appDataFolder`. Google features require an OAuth client that is not configured yet.
 
+### PLUNZ TV
+
+A TV-oriented Stremio Web fork at `stremio.plu.nz` in `plu-nz/web.stremio_tv`. It keeps Stremio account, addon, catalog, source, and player behavior while improving D-pad, OK, and Back navigation. Its React and Webpack stack is an intentional exception to the SolidJS and Vite default because preserving the maintained Stremio client is needed for playback parity. The Cloudflare Worker serves only static frontend assets. Browser-compatible streams play directly; torrents and transcoding require Stremio Service on the playback device and Local network access permission in a browser that enforces it.
+
 ### Meal planning (unnamed)
 
 Meal and meal-prep planning. Public name and address remain undecided.

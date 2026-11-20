@@ -14,7 +14,7 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
 | Manga | Local-first manga reader that converts chapters to Kindle EPUBs and sends them from the user's Gmail | `manga.plu.nz` | MVP; repository `mono.manga` |
 | Lounge | Linux TV app for Stremio addons, used with a remote control | `lounge.plu.nz` (website and downloads) | MVP, v0.1.0 released; repository `app.lounge` |
-| Nexus | Linux TV panel for TV apps, audio, brightness, sleep timer, and power, used with a remote control | `nexus.plu.nz` (website and downloads) | MVP, v0.1.0 released; repository `app.nexus` |
+| Nexus | Linux TV panel and app store for TV apps, with audio, brightness, sleep timer, and power, used with a remote control | `nexus.plu.nz` (website and downloads) | MVP, v0.2.0 released; repository `app.nexus` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 

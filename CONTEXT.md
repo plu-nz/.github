@@ -25,10 +25,6 @@ A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a
 
 An anonymous, mobile-first bill splitter at `split.plu.nz` in `plu-nz/mono.split`. Visitors can enter bill items, add people, assign items, and copy exact per-person totals without accounts. A receipt photo can be sent to Cloudflare Workers AI for suggested line items; every suggestion must be reviewed. Bill drafts remain on the visitor's device. No payment or restaurant management is included.
 
-### Pomodoro
-
-A local, mobile-first focus timer at `pomodoro.plu.nz` in `plu-nz/web.pomodoro`. Its MVP has 25-minute focus sessions, 5-minute short breaks, and a 15-minute long break after four completed focus sessions. It has no accounts or backend.
-
 ### Manga
 
 A local-first manga reader PWA at `manga.plu.nz` in `plu-nz/mono.manga`. It searches MangaDex through a small Cloudflare Worker relay (catalog and images, no storage), imports the user's own CBZ/ZIP files, keeps library, progress, and offline chapters in IndexedDB, and reads right-to-left, left-to-right, or vertically. Chapters convert in the browser to fixed-layout EPUBs sized for the chosen Kindle and can be emailed to a `@kindle.com` address with the Gmail API (`gmail.send`) or downloaded. Optional sync uses the Google Drive `appDataFolder`. Google features require an OAuth client that is not configured yet.
@@ -73,7 +69,7 @@ The [product localization decision](decisions/2026-11-04-product-localization.md
 
 ## Shared design system
 
-The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `LinkButton`, `TextField`, and `Card`. The home, Split, and Pomodoro use pinned revisions in their live apps. Capture's profile-creation form adopts the library on its open refactor PR #55; that change is not deployed. The Passport desktop app uses it at the same revision, with colors still taken from the GTK theme and Darkppuccin with the red accent as the fallback. Product-specific controls remain local, and the library does not replace existing styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
+The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `LinkButton`, `TextField`, and `Card`. The home and Split use pinned revisions in their live apps. Capture's profile-creation form adopts the library on its open refactor PR #55; that change is not deployed. The Passport desktop app uses it at the same revision, with colors still taken from the GTK theme and Darkppuccin with the red accent as the fallback. Product-specific controls remain local, and the library does not replace existing styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
 
 ## Open questions
 

@@ -39,7 +39,7 @@ A Linux TV app in `plu-nz/app.lounge`, built with Go, Wails 3, and SolidJS, for 
 
 ### Nexus
 
-Nexus is a Linux TV panel in `plu-nz/app.nexus`, driven with a remote. It opens Lounge and the VacuumTube Flatpak and holds the couch controls: volume and audio output (PipeWire), brightness (backlight or DDC/CI), a sleep timer, and power. On layer-shell compositors it is a full-screen overlay above fullscreen video, toggled by an Omarchy shortcut. It follows the desktop's GTK theme. It is built with Go, Wails 3, and SolidJS.
+Nexus is a Linux TV panel in `plu-nz/app.nexus`, driven with a remote. It opens Lounge and the VacuumTube Flatpak and holds the couch controls: volume and audio output (PipeWire), brightness (backlight or DDC/CI), a sleep timer, and power. On layer-shell compositors it is a full-screen overlay above fullscreen video, toggled by the remote's Power button. It follows the desktop's GTK theme. It is built with Go, Wails 3, and SolidJS.
 
 ### Meal planning (unnamed)
 

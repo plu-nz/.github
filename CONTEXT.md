@@ -19,7 +19,7 @@
 
 ### Capture (working name)
 
-A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Preview address: `capture.plu.nz`. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
+A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Live at `capture.plu.nz`, with a viewfinder mark and highlights in the Darkppuccin white. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
 
 ### Split
 

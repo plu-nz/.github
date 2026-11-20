@@ -18,7 +18,7 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 
-Decide product names individually. `capture.plu.nz` is the selected address for the photo app preview; `split.plu.nz` and `manga.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
+Decide product names individually. `capture.plu.nz`, `split.plu.nz`, and `manga.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
 
 ## Using this repository
 

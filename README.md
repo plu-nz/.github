@@ -13,12 +13,12 @@ This repository holds the [public organization profile](profile/README.md), shar
 | Capture (working name) | A photo portfolio/PWA using the user's Google Drive or Photos, with a feed and albums but no likes, followers, or comments | `capture.plu.nz` | In development; repository `mono.capture` |
 | Split | Anonymous bill splitting with AI-assisted receipt capture and local allocation | `split.plu.nz` | MVP; repository `mono.split` |
 | Manga | Local-first manga reader that converts chapters to Kindle EPUBs and sends them from the user's Gmail | `manga.plu.nz` | MVP; repository `mono.manga` |
-| Lounge (working name) | Linux TV app for Stremio addons, used with a remote control | None (desktop app) | MVP; repository `app.lounge` |
-| Nexus | Linux TV panel for TV apps, audio, brightness, sleep timer, and power, used with a remote control | None (desktop app) | MVP; repository `app.nexus` |
+| Lounge | Linux TV app for Stremio addons, used with a remote control | `lounge.plu.nz` (website and downloads) | MVP, v0.1.0 released; repository `app.lounge` |
+| Nexus | Linux TV panel for TV apps, audio, brightness, sleep timer, and power, used with a remote control | `nexus.plu.nz` (website and downloads) | MVP, v0.1.0 released; repository `app.nexus` |
 | Meal planning (unnamed) | Meal and meal-prep planning | To be decided | Initial concept |
 | Psychologist practice (unnamed) | Scheduling, confirmations, and payments for psychologists | To be decided | Initial concept |
 
-Decide product names individually. `capture.plu.nz`, `split.plu.nz`, and `manga.plu.nz` are live product addresses. Other product names and addresses remain open. The main domain is `plu.nz`.
+Decide product names individually. `capture.plu.nz`, `split.plu.nz`, and `manga.plu.nz` are live product addresses; `lounge.plu.nz` and `nexus.plu.nz` are the download pages of the Linux TV apps. Other product names and addresses remain open. The main domain is `plu.nz`.
 
 ## Using this repository
 

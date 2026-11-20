@@ -1,7 +1,7 @@
 # Lounge: a Linux TV client for Stremio addons
 
 - **Date:** 2026-11-19
-- **Status:** Accepted. The name is tentative; the repository is local only and not yet on GitHub.
+- **Status:** Accepted. Updated 2026-11-20: the name Lounge is confirmed, and the repository is public at `plu-nz/app.lounge`.
 
 ## Context
 

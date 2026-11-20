@@ -37,6 +37,10 @@ A local-first manga reader PWA at `manga.plu.nz` in `plu-nz/mono.manga`. It sear
 
 A Linux TV app in `plu-nz/app.lounge`, built with Go, Wails 3, and SolidJS, for watching content from Stremio addons with a remote control. It takes its features and UX from Lumera, an Android TV client, but contains none of Lumera's code. Video plays through libmpv inside the app window, under the HTML interface. Torrents stream through an embedded `anacrolix/torrent` engine, so Stremio Service is not needed. It is tested on Omarchy; packaging for Bazzite is pending. See the [decision](decisions/2026-11-19-lounge-tv-client.md).
 
+### Nexus
+
+Nexus is a Linux TV panel in `plu-nz/app.nexus`, driven with a remote. It opens Lounge and the VacuumTube Flatpak and holds the couch controls: volume and audio output (PipeWire), brightness (backlight or DDC/CI), a sleep timer, and power. On layer-shell compositors it is a full-screen overlay above fullscreen video, toggled by an Omarchy shortcut. It follows the desktop's GTK theme. It is built with Go, Wails 3, and SolidJS.
+
 ### Meal planning (unnamed)
 
 Meal and meal-prep planning. Public name and address remain undecided.

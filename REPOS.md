@@ -14,6 +14,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 | `repos/mono.manga/` | Manga reader PWA with Kindle EPUB conversion and its MangaDex relay Worker | [plu-nz/mono.manga](https://github.com/plu-nz/mono.manga) |
 | `repos/mono.passport/` | Passport (formerly Passage) desktop app, browser extension, and native host for GNU `pass` vaults | [plu-nz/mono.passport](https://github.com/plu-nz/mono.passport) |
 | `repos/app.lounge/` | Lounge Linux TV client for Stremio addons (Go + Wails 3, libmpv) | [plu-nz/app.lounge](https://github.com/plu-nz/app.lounge) |
+| `repos/app.nexus/` | Nexus Linux TV panel for apps, audio, brightness, sleep timer, and power (Go + Wails 3) | [plu-nz/app.nexus](https://github.com/plu-nz/app.nexus) |
 | `repos/lib.storybook/` | Shared SolidJS components and Storybook | [plu-nz/lib.storybook](https://github.com/plu-nz/lib.storybook) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
 | `repos/web.bazzite/` | Public information and privacy site for private Bazzite services | [plu-nz/web.bazzite](https://github.com/plu-nz/web.bazzite) |

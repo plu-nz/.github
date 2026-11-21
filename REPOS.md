@@ -16,6 +16,7 @@ The entire `repos/` directory is ignored by this repository's [`.gitignore`](.gi
 | `repos/app.nexus/` | Nexus Linux TV panel for apps, audio, brightness, sleep timer, and power (Go + Wails 3) and its nexus.plu.nz site | [plu-nz/app.nexus](https://github.com/plu-nz/app.nexus) |
 | `repos/lib.storybook/` | Shared SolidJS components and Storybook | [plu-nz/lib.storybook](https://github.com/plu-nz/lib.storybook) |
 | `repos/web.home/` | PLUNZ public application hub | [plu-nz/web.home](https://github.com/plu-nz/web.home) |
+| `repos/web.tinta/` | Tinta colour palette showcase site (SolidJS, Cloudflare Workers) at tinta.plu.nz | [plu-nz/web.tinta](https://github.com/plu-nz/web.tinta) |
 | `repos/web.bazzite/` | Public information and privacy site for private Bazzite services | [plu-nz/web.bazzite](https://github.com/plu-nz/web.bazzite) |
 | `repos/ops.workflows/` | Shared CI and CD workflows | [plu-nz/ops.workflows](https://github.com/plu-nz/ops.workflows) |
 

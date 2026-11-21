@@ -13,7 +13,7 @@ PLUNZ products used the Darkppuccin palette from `xonha/dotfiles`: Catppuccin Mo
 - `plu-nz/lib.storybook` mirrors Tinta: all 14 accents, a `dark` (default), `light`, or `system` mode, and the same neutrals. `--plz-line` and `--plz-raised` use Tinta `surface0` (`#333333`).
 - The orange accent keeps its name and takes the Tinta value `#FAB387` (previously `#f6b6ab`).
 - Products replace hard-coded Darkppuccin and Catppuccin hex values with Tinta values. Product repositories pick up the library change by bumping their `@plunz/storybook` pin.
-- The Dotfiles repository ships an Omarchy `tinta` theme next to `darkppuccin`. Desktop apps that follow the GTK theme (Lounge, Stage, Nexus, Passport) are Tinta once that theme is active.
+- The Dotfiles repository ships the Omarchy themes `tinta-dark` and `tinta-light` (with matching GTK themes `Tinta-Dark` and `Tinta-Light`, published in `plu-nz/web.tinta`) next to `darkppuccin`. Desktop apps that follow the GTK theme (Lounge, Stage, Nexus, Passport) are Tinta once that theme is active.
 
 ## Consequences
 

@@ -11,7 +11,7 @@
 
 - Square logo (1:1), with a full background and no rounded corners.
 - Symbol inspired by the four arrows of a game controller D-pad.
-- Colors exclusively from the Darkppuccin palette in `xonha/dotfiles`.
+- Colors exclusively from the Tinta palette (`plu-nz/web.tinta`, `src/palette.js`), as recorded in the [Tinta theme decision](decisions/2026-11-21-tinta-theme.md). It replaces Darkppuccin.
 - Arrows: orange at the top, blue at the bottom, green on the left, and red on the right.
 - Retrieve exact color values from the palette source before producing final assets.
 
@@ -19,7 +19,7 @@
 
 ### Capture (working name)
 
-A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Live at `capture.plu.nz`, with a viewfinder mark and highlights in the Darkppuccin white. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
+A photo portfolio/PWA using the user's own Google Drive or Photos. It includes a feed and albums, without likes, followers, or comments. Live at `capture.plu.nz`, with a viewfinder mark and highlights in the Tinta white. Repository: `plu-nz/mono.capture`. Persisted data and current production resources still use legacy Capturar identifiers until a validated migration.
 
 ### Split
 
@@ -69,7 +69,7 @@ The [product localization decision](decisions/2026-11-04-product-localization.md
 
 ## Shared design system
 
-The shared library in `plu-nz/lib.storybook` contains Darkppuccin tokens and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `LinkButton`, `TextField`, and `Card`. The home and Split use pinned revisions in their live apps. Capture's profile-creation form adopts the library on its open refactor PR #55; that change is not deployed. The Passport desktop app uses it at the same revision, with colors still taken from the GTK theme and Darkppuccin with the red accent as the fallback. Product-specific controls remain local, and the library does not replace existing styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
+The shared library in `plu-nz/lib.storybook` contains Tinta tokens (dark and light) and reusable SolidJS components. Its interactive Storybook is live at `storybook.plu.nz`. Its first components are `Theme`, `Button`, `LinkButton`, `TextField`, and `Card`. The home and Split use pinned revisions in their live apps. Capture's profile-creation form adopts the library on its open refactor PR #55; that change is not deployed. The Passport desktop app uses it at the same revision, with colors still taken from the GTK theme and Tinta with the red accent as the fallback. Product-specific controls remain local, and the library does not replace existing styles automatically. See the [shared design system decision](decisions/2026-11-04-shared-design-system.md).
 
 ## Open questions
 

@@ -19,7 +19,7 @@ Build **Lounge** (`app.lounge`, a working name) from scratch as a Go + Wails 3 d
 - **Video:** libmpv renders through its OpenGL API into a `GtkGLArea` placed under the Wails WebKitGTK webview, whose background is transparent. The player UI is HTML drawn over the video in the same window. A spike on Omarchy confirmed this works on GTK 4 and Wayland.
 - **Torrents:** the app embeds `anacrolix/torrent` and serves the file over local HTTP with range support, so mpv can stream and seek while pieces download. This avoids Stremio's closed `server.js` and external clients such as aria2 or Transmission, which download pieces out of order and cannot serve a partial file to a player.
 - **Addons:** the app talks to the Stremio addon protocol directly from Go. Cinemeta and OpenSubtitles v3 are installed by default; the user installs stream addons by URL.
-- **UI:** the UI uses spatial navigation for D-pad remotes and the shared Darkppuccin tokens from `@plunz/storybook`. It is localized in en/pt/es.
+- **UI:** the UI uses spatial navigation for D-pad remotes and the shared Tinta tokens from `@plunz/storybook`. It is localized in en/pt/es.
 - **Framework:** stay on SolidJS 1.9. Solid 2.0 was released on 2026-11-17, but `vite-plugin-solid` 3, `lucide-solid`, and `@plunz/storybook` do not support it yet. Revisit this together with the other PLUNZ apps.
 - **Targets:** test on Omarchy first. Packaging for Bazzite (Flatpak or AppImage, launched from Game Mode) comes later.
 

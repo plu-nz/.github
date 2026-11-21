@@ -1,7 +1,7 @@
 # Shared design system and component workshop
 
 - **Date:** 2026-11-04
-- **Status:** Accepted
+- **Status:** Accepted; its Darkppuccin color rules are superseded by [Tinta as the PLUNZ theme](2026-11-21-tinta-theme.md)
 
 ## Context
 
